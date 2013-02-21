@@ -4,8 +4,9 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Longsor.Model;
 
-namespace Avalanche.Data
+namespace Longsor.Data
 {
     public class AvalancheConfiguration : EntityTypeConfiguration<Avalanche>
     {
@@ -17,6 +18,13 @@ namespace Avalanche.Data
                 .WithMany(p => p.SpeakerSessions)
                 .HasForeignKey(s => s.SpeakerId);
              */
+
+            HasMany(a => a.Children)
+                .WithRequiredPrinciple();
+
+            HasMany(t => t.Solutions)
+                .WithRequired(t => t.Id)
+                .HasForeignKey(t => t.AvalancheId);
         }
     }
 }

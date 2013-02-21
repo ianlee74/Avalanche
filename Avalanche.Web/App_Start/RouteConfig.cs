@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Avalanche.Web
+namespace Longsor.Web
 {
     public class RouteConfig
     {

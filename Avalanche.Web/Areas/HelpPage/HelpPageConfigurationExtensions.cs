@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Avalanche.Web.Areas.HelpPage.Models;
+using Longsor.Web.Areas.HelpPage.Models;
 
-namespace Avalanche.Web.Areas.HelpPage
+namespace Longsor.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

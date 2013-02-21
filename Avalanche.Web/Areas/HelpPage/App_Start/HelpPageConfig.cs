@@ -4,7 +4,7 @@ using System.Net.Http.Headers;
 using System.Web;
 using System.Web.Http;
 
-namespace Avalanche.Web.Areas.HelpPage
+namespace Longsor.Web.Areas.HelpPage
 {
     /// <summary>
     /// Use this class to customize the Help Page.

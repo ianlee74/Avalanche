@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avalanche.Data.SampleData
+namespace Longsor.Data.SampleData
 {
     public class AvalancheDatabaseInitializer : DropCreateDatabaseIfModelChanges<AvalancheDbContext>
     {

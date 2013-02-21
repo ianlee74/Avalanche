@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Avalanche.Web</RootNamespace>
-    <AssemblyName>Avalanche.Web</AssemblyName>
+    <RootNamespace>Longsor.Web</RootNamespace>
+    <AssemblyName>Longsor.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -298,13 +298,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Avalanche.Data\Avalanche.Data.csproj">
+    <ProjectReference Include="..\Avalanche.Data\Longsor.Data.csproj">
       <Project>{319fdeaa-ff00-476f-9ac9-8ff4edbac1fd}</Project>
-      <Name>Avalanche.Data</Name>
+      <Name>Longsor.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Avalanche.Model\Avalanche.Model.csproj">
+    <ProjectReference Include="..\Avalanche.Model\Longsor.Model.csproj">
       <Project>{e6b924e9-6db1-4e88-bf08-499688606471}</Project>
-      <Name>Avalanche.Model</Name>
+      <Name>Longsor.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

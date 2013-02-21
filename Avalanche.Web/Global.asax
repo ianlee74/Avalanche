@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Avalanche.Web.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Longsor.Web.WebApiApplication" Language="C#" %>

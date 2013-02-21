@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using Avalanche.Data.SampleData;
+using Longsor.Data.SampleData;
+using Longsor.Model;
 
-namespace Avalanche.Data
+namespace Longsor.Data
 {
     public class AvalancheDbContext:DbContext
     {
@@ -17,7 +18,7 @@ namespace Avalanche.Data
         static AvalancheDbContext()
         {
             // Remove from production.  This will reset the database.
-            Database.SetInitializer(new AvalancheDatabaseInitializer);
+            Database.SetInitializer(new AvalancheDatabaseInitializer());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

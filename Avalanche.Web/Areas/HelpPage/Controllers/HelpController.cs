@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Avalanche.Web.Areas.HelpPage.Models;
+using Longsor.Web.Areas.HelpPage.Models;
 
-namespace Avalanche.Web.Areas.HelpPage.Controllers
+namespace Longsor.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

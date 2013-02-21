@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalanche.Web", "Avalanche.Web\Avalanche.Web.csproj", "{A345B724-1467-4497-A77A-FD1771BDC120}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Web", "Avalanche.Web\Longsor.Web.csproj", "{A345B724-1467-4497-A77A-FD1771BDC120}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalanche.Data", "Avalanche.Data\Avalanche.Data.csproj", "{319FDEAA-FF00-476F-9AC9-8FF4EDBAC1FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Data", "Avalanche.Data\Longsor.Data.csproj", "{319FDEAA-FF00-476F-9AC9-8FF4EDBAC1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalanche.Model", "Avalanche.Model\Avalanche.Model.csproj", "{E6B924E9-6DB1-4E88-BF08-499688606471}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Model", "Avalanche.Model\Longsor.Model.csproj", "{E6B924E9-6DB1-4E88-BF08-499688606471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

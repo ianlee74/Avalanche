@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Avalanche.Web
+namespace Longsor.Web
 {
     public class BundleConfig
     {

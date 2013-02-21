@@ -1,4 +1,4 @@
-namespace Avalanche.Web.Areas.HelpPage
+namespace Longsor.Web.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

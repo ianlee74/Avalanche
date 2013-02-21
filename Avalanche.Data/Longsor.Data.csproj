@@ -7,8 +7,8 @@
     <ProjectGuid>{319FDEAA-FF00-476F-9AC9-8FF4EDBAC1FD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Avalanche.Data</RootNamespace>
-    <AssemblyName>Avalanche.Data</AssemblyName>
+    <RootNamespace>Longsor.Data</RootNamespace>
+    <AssemblyName>Longsor.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,22 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Avalanche.cs" />
     <Compile Include="AvalancheDbContext.cs" />
-    <Compile Include="AvalancheRelatives.cs" />
     <Compile Include="Configuration\AvalancheConfiguration.cs" />
+    <Compile Include="Configuration\SolutionConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleData\AvalancheDatabaseInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Avalanche.Model\Avalanche.Model.csproj">
-      <Project>{e6b924e9-6db1-4e88-bf08-499688606471}</Project>
-      <Name>Avalanche.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Avalanche.Model\Longsor.Model.csproj">
+      <Project>{e6b924e9-6db1-4e88-bf08-499688606471}</Project>
+      <Name>Longsor.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
