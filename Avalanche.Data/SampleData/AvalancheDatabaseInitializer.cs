@@ -11,7 +11,7 @@ namespace Longsor.Data.SampleData
     {
         protected override void Seed(AvalancheDbContext context)
         {
-            var avalanches = AddAvalanches(context);
+            //var avalanches = AddAvalanches(context);
 
 
             base.Seed(context);

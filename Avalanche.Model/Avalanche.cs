@@ -6,8 +6,12 @@ namespace Longsor.Model
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public virtual ICollection<Avalanche> Avalanches { get; set; } 
+        public virtual ICollection<Avalanche> ParentAvalanches { get; set; }
+        public virtual ICollection<Avalanche> Avalanches { get; set; }
         public virtual ICollection<Solution> Solutions { get; set; }
         public Solution ChosenSolution { get; set; }
+
+        // Foreign Keys
+        public int ChosenSolutionId { get; set; }
     }
 }

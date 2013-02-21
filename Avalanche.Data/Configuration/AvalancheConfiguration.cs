@@ -19,12 +19,15 @@ namespace Longsor.Data
                 .HasForeignKey(s => s.SpeakerId);
              */
 
-            HasMany(a => a.Children)
-                .WithRequiredPrinciple();
+            HasMany(t => t.Avalanches)
+                .WithMany(t => t.ParentAvalanches);             
 
-            HasMany(t => t.Solutions)
-                .WithRequired(t => t.Id)
+            HasMany(a => a.Solutions)
+                .WithRequired(t => t.Avalanche)
                 .HasForeignKey(t => t.AvalancheId);
+
+            HasOptional(t => t.ChosenSolution)
+                .WithRequired(t => t.Avalanche);
         }
     }
 }
