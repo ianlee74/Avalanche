@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Longsor.Data.SampleData
 {
-    public class AvalancheDatabaseInitializer : DropCreateDatabaseIfModelChanges<AvalancheDbContext>
+    public class LongsorDatabaseInitializer : DropCreateDatabaseIfModelChanges<LongsorDbContext>
     {
-        protected override void Seed(AvalancheDbContext context)
+        protected override void Seed(LongsorDbContext context)
         {
             //var avalanches = AddAvalanches(context);
 

@@ -1,29 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using Longsor.Data.SampleData;
 using Longsor.Model;
 
 namespace Longsor.Data
 {
-    public class AvalancheDbContext:DbContext
+    public class LongsorDbContext:DbContext
     {
-        public AvalancheDbContext() : base(nameOrConnectionString: "Avalanche") {}
+        public LongsorDbContext() : base(nameOrConnectionString: "Longsor") {}
 
         public DbSet<Avalanche> Avalanches { get; set; }
+        public DbSet<Solution> Solutions { get; set; }
 
-        static AvalancheDbContext()
+        static LongsorDbContext()
         {
             // Remove from production.  This will reset the database.
-            Database.SetInitializer(new AvalancheDatabaseInitializer());
+            Database.SetInitializer(new LongsorDatabaseInitializer());
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new AvalancheConfiguration());
+            modelBuilder.Configurations.Add(new SolutionConfiguration());
         }
     }
 }
