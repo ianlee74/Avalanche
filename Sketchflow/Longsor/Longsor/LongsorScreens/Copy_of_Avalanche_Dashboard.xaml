@@ -1,0 +1,32 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
+	mc:Ignorable="d"
+	x:Class="LongsorScreens.Copy_of_Avalanche_Dashboard"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<TextBlock Height="58" Margin="8,8,19,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="48"><Run Text="Autonomous Quadcopter Toaster"/><LineBreak/><Run/></TextBlock>
+		<ListBox Height="101" Margin="32,130,147,0" VerticalAlignment="Top">
+			<ListBoxItem Content="Ultralight Toaster                                                          (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+			<ListBoxItem Content="Stabilization (IMU) Electronics                                      (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="GotFocus">
+						<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Stabilization_Electronics"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</ListBoxItem>
+			<ListBoxItem Content="Stabilization Software                                                  (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+			<ListBoxItem Content="(add new Avalanche)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+		</ListBox>
+		<TextBlock HorizontalAlignment="Left" Height="32" Margin="32,98,0,0" TextWrapping="Wrap" Text="Avalanches" VerticalAlignment="Top" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Height="32" Margin="32,0,0,193" TextWrapping="Wrap" Text="Solutions" VerticalAlignment="Bottom" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<ListBox Height="101" Margin="32,0,147,88" VerticalAlignment="Bottom">
+			<ListBoxItem Content="(add new Solution)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+		</ListBox>
+	</Grid>
+</UserControl>

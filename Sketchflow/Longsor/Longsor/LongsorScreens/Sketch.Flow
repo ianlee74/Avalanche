@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2">
+  <SketchFlowGuid>0e5c44d0-10c3-43b1-891d-fe78ba0c699e</SketchFlowGuid>
+  <StartScreen>LongsorScreens.Avalanche_Dashboard</StartScreen>
+  <Screens>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>LongsorScreens.Screen_1</ClassName>
+      <DisplayName>Welcome</DisplayName>
+      <FileName>Screen_1.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>0</X>
+        <Y>0</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>LongsorScreens.Avalanche_Dashboard</ClassName>
+      <DisplayName>Autonomous Flying Toaster</DisplayName>
+      <FileName>Avalanche_Dashboard.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>141</X>
+        <Y>1</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>LongsorScreens.Create_an_Avalanche</ClassName>
+      <DisplayName>Create an Avalanche</DisplayName>
+      <FileName>Create_an_Avalanche.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>307</X>
+        <Y>-2</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>LongsorScreens.Copy_of_Avalanche_Dashboard</ClassName>
+      <DisplayName>Autonomous Quadcopter Toaster</DisplayName>
+      <FileName>Copy_of_Avalanche_Dashboard.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>135</X>
+        <Y>45</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+    <Screen>
+      <Type>Navigation</Type>
+      <ClassName>LongsorScreens.Stabilization_Electronics</ClassName>
+      <DisplayName>Stabilization (IMU) Electronics</DisplayName>
+      <FileName>Stabilization_Electronics.xaml</FileName>
+      <Annotations />
+      <Position>
+        <X>157</X>
+        <Y>95</Y>
+      </Position>
+      <VisualTag>0</VisualTag>
+    </Screen>
+  </Screens>
+  <Connections>
+    <Connection>
+      <Source>LongsorScreens.Avalanche_Dashboard</Source>
+      <Target>LongsorScreens.Copy_of_Avalanche_Dashboard</Target>
+      <Type>Navigation</Type>
+      <TransitionType>LinearWipe</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Copy_of_Avalanche_Dashboard</Source>
+      <Target>LongsorScreens.Stabilization_Electronics</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+  </Connections>
+  <PrototypeRevision>0</PrototypeRevision>
+  <BrandingText>Microsoft SketchFlow Prototype</BrandingText>
+  <RuntimeOptions>
+    <HideNavigation>false</HideNavigation>
+    <HideFlowGraph>false</HideFlowGraph>
+    <HideAnnotationAndInk>false</HideAnnotationAndInk>
+    <DisableInking>false</DisableInking>
+    <HideDesignTimeAnnotations>false</HideDesignTimeAnnotations>
+  </RuntimeOptions>
+  <VisualTags>
+    <VisualTag>
+      <Name>Navigation</Name>
+      <Color>FF1E2AD6</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Component</Name>
+      <Color>FF178F11</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Yellow</Name>
+      <Color>FFFEC600</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Orange</Name>
+      <Color>FFF06000</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Red</Name>
+      <Color>FFCC0202</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Violet</Name>
+      <Color>FF780099</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>Gray</Name>
+      <Color>FF6B6B6B</Color>
+    </VisualTag>
+    <VisualTag>
+      <Name>White</Name>
+      <Color>FFFFFFFF</Color>
+    </VisualTag>
+  </VisualTags>
+  <ViewState>
+    <Zoom>1</Zoom>
+    <Center>
+      <X>628</X>
+      <Y>78.5</Y>
+    </Center>
+  </ViewState>
+</Data>

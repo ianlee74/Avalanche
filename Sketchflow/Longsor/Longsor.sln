@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor", "Longsor\Longsor.csproj", "{6f36bc9e-17c3-4e3f-aced-af8ced7eb323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongsorScreens", "Longsor\LongsorScreens\LongsorScreens.csproj", "{305bd8fd-f630-4ac3-87f3-e36cf5924670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F36BC9E-17C3-4E3F-ACED-AF8CED7EB323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F36BC9E-17C3-4E3F-ACED-AF8CED7EB323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F36BC9E-17C3-4E3F-ACED-AF8CED7EB323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F36BC9E-17C3-4E3F-ACED-AF8CED7EB323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305BD8FD-F630-4AC3-87F3-E36CF5924670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305BD8FD-F630-4AC3-87F3-E36CF5924670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305BD8FD-F630-4AC3-87F3-E36CF5924670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305BD8FD-F630-4AC3-87F3-E36CF5924670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
