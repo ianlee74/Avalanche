@@ -55,8 +55,8 @@ namespace Longsor.Data
 
         public void Add(Avalanche entity)
         {
-            var sql = String.Format("insert into Avalanche (Id, Description) values (id = {0}, description = '{1}')"
-                              , entity.Id
+            var sql = String.Format("insert into Avalanche (Title, Description) values ('{0}', '{1}');"
+                              , entity.Title
                               , entity.Description);
 
             using (var cnn = new SqlCeConnection(LongsorDb.ConnectionString))
@@ -69,7 +69,8 @@ namespace Longsor.Data
 
         public void Update(Avalanche entity)
         {
-            var sql = String.Format("update Avalanche (Id, Description) description = '{0}' where id = {1}"
+            var sql = String.Format("update Avalanche set Title = '{0}', Description = '{1}' where id = {2};"
+                                    , entity.Title
                                     , entity.Description
                                     , entity.Id);
 

@@ -1,0 +1,3 @@
+insert into Avalanche (Title, Description) values ('A Better Mouse Trap', 'The need that this product would satisfy is that for a better mouse trap that is internet connected and notifies the home owner when a mouse is trapped.')
+
+insert into Avalanche (Title, Description) values ('A Better Mouse Trap', 'The need that this product would satisfy is that for a better mouse trap that is internet connected and notifies the home owner when a mouse is trapped.')
