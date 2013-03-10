@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Web", "Avalanche.Web\Longsor.Web.csproj", "{A345B724-1467-4497-A77A-FD1771BDC120}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Data", "Avalanche.Data\Longsor.Data.csproj", "{319FDEAA-FF00-476F-9AC9-8FF4EDBAC1FD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Model", "Avalanche.Model\Longsor.Model.csproj", "{E6B924E9-6DB1-4E88-BF08-499688606471}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Data.Contracts", "Longsor.Data.Contracts\Longsor.Data.Contracts.csproj", "{B532EBF2-400F-410D-8EE4-26EC77EF528F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Api", "Longsor.Api\Longsor.Api.csproj", "{A345B724-1467-4497-A77A-FD1771BDC120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Data", "Longsor.Data\Longsor.Data.csproj", "{319FDEAA-FF00-476F-9AC9-8FF4EDBAC1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longsor.Model", "Longsor.Model\Longsor.Model.csproj", "{E6B924E9-6DB1-4E88-BF08-499688606471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A345B724-1467-4497-A77A-FD1771BDC120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A345B724-1467-4497-A77A-FD1771BDC120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A345B724-1467-4497-A77A-FD1771BDC120}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,10 +31,6 @@ Global
 		{E6B924E9-6DB1-4E88-BF08-499688606471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B924E9-6DB1-4E88-BF08-499688606471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B924E9-6DB1-4E88-BF08-499688606471}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B532EBF2-400F-410D-8EE4-26EC77EF528F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
