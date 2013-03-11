@@ -6,27 +6,45 @@
 	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
 	mc:Ignorable="d"
 	x:Class="LongsorScreens.Avalanche_Dashboard"
-	Width="640" Height="480">
+	Width="800" Height="700">
 
 	<Grid x:Name="LayoutRoot" Background="White">
-		<TextBlock Height="58" Margin="8,8,156,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="48"><Run Text="Autonomous Flying Toaster"/><LineBreak/><Run/></TextBlock>
-		<ListBox Height="101" Margin="32,130,147,0" VerticalAlignment="Top">
-			<ListBoxItem Content="Autonomous Quadcopter Toaster                                   (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}">
+		<TextBlock Height="58" Margin="8,14,33,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="48"><Run Text="A Better Mouse Trap"/><LineBreak/><Run/></TextBlock>
+		<ListBox Margin="33,269,33,330" RenderTransformOrigin="0.501,0.505">
+			<ListBoxItem Content="Electric Chair Trap                                                        (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+			<ListBoxItem Content="Internet-connected Snap Trap                                      (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="GotFocus">
-						<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Copy_of_Avalanche_Dashboard"/>
+						<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Internet_Connected_Traditional_Trap"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
 			</ListBoxItem>
-			<ListBoxItem Content="Autonomous Balloon Toaster                                         (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
-			<ListBoxItem Content="Autonomous Catapult Toaster                                        (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+			<ListBoxItem Content="Vacuum Trap  (aka Bank Tube Trap)                             (status)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
 			<ListBoxItem Content="(add new Avalanche)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
 		</ListBox>
-		<TextBlock HorizontalAlignment="Left" Height="32" Margin="32,98,0,0" TextWrapping="Wrap" Text="Avalanches" VerticalAlignment="Top" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<TextBlock HorizontalAlignment="Left" Height="32" Margin="32,0,0,193" TextWrapping="Wrap" Text="Solutions" VerticalAlignment="Bottom" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
-		<ListBox Height="101" Margin="32,0,147,88" VerticalAlignment="Bottom">
-			<ListBoxItem Content="ACME Toaster Drone" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+		<TextBlock Height="32" Margin="33,233,33,0" TextWrapping="Wrap" Text="Further down the mountain..." VerticalAlignment="Top" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<TextBlock HorizontalAlignment="Left" Height="32" Margin="33,0,0,273" TextWrapping="Wrap" Text="Solutions" VerticalAlignment="Bottom" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<ListBox Height="75" Margin="33,0,33,194" VerticalAlignment="Bottom">
+			<ListBoxItem Content="Victor M260 Multi-Kill Electronic Mouse Trap                                                               (2,3)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}">
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="GotFocus">
+						<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Victor_M260_Multi_Kill_Electronic_Mouse_Trap"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</ListBoxItem>
 			<ListBoxItem Content="(add new Solution)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
+		</ListBox>
+		<TextBlock Margin="33,72,33,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="145" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="16"><Run Text="Currently available mouse traps are not very convenient.  They require the owner to occasionally check and reset the traps manually.  It would be ideal if a trap could be designed that would do the following:"/><LineBreak/><LineBreak/><Run FontWeight="Bold" Text="OBJECTIVES:"/><LineBreak/><Run Text="1.  Automatically notify it's owner when a mouse was caught."/><LineBreak/><Run Text="2.  Automatically dispose of mice after they are caught."/><LineBreak/><Run Text="3.  Automatically reset to an armed position after the mouse is disposed."/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Height="17" TextWrapping="Wrap" Text="An Avalanche idea..." VerticalAlignment="Top" Width="392" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Screen_1"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
+		<TextBlock HorizontalAlignment="Left" Height="32" Margin="33,0,0,135" TextWrapping="Wrap" Text="Related Products" VerticalAlignment="Bottom" Width="218" FontSize="26.667" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch"/>
+		<ListBox Height="75" Margin="33,0,33,56" VerticalAlignment="Bottom">
+			<ListBoxItem Content="(add a related product)" Margin="0" Style="{StaticResource ListBoxItem-Sketch}"/>
 		</ListBox>
 	</Grid>
 </UserControl>

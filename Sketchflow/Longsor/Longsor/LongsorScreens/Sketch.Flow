@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2">
   <SketchFlowGuid>0e5c44d0-10c3-43b1-891d-fe78ba0c699e</SketchFlowGuid>
-  <StartScreen>LongsorScreens.Avalanche_Dashboard</StartScreen>
+  <StartScreen>LongsorScreens.Screen_1</StartScreen>
   <Screens>
     <Screen>
       <Type>Navigation</Type>
@@ -18,7 +18,7 @@
     <Screen>
       <Type>Navigation</Type>
       <ClassName>LongsorScreens.Avalanche_Dashboard</ClassName>
-      <DisplayName>Autonomous Flying Toaster</DisplayName>
+      <DisplayName>A Better Mouse Trap</DisplayName>
       <FileName>Avalanche_Dashboard.xaml</FileName>
       <Annotations />
       <Position>
@@ -29,52 +29,87 @@
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>LongsorScreens.Create_an_Avalanche</ClassName>
-      <DisplayName>Create an Avalanche</DisplayName>
-      <FileName>Create_an_Avalanche.xaml</FileName>
+      <ClassName>LongsorScreens.Victor_M260_Multi_Kill_Electronic_Mouse_Trap</ClassName>
+      <DisplayName>Victor M260 Multi-Kill Electronic Mouse Trap</DisplayName>
+      <FileName>Victor_M260_Multi_Kill_Electronic_Mouse_Trap.xaml</FileName>
       <Annotations />
       <Position>
-        <X>307</X>
-        <Y>-2</Y>
+        <X>323</X>
+        <Y>-84</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>LongsorScreens.Copy_of_Avalanche_Dashboard</ClassName>
-      <DisplayName>Autonomous Quadcopter Toaster</DisplayName>
-      <FileName>Copy_of_Avalanche_Dashboard.xaml</FileName>
+      <ClassName>LongsorScreens.Internet_Connected_Traditional_Trap</ClassName>
+      <DisplayName>Internet Connected Traditional Trap</DisplayName>
+      <FileName>Internet_Connected_Traditional_Trap.xaml</FileName>
       <Annotations />
       <Position>
-        <X>135</X>
-        <Y>45</Y>
+        <X>146</X>
+        <Y>66</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
     <Screen>
       <Type>Navigation</Type>
-      <ClassName>LongsorScreens.Stabilization_Electronics</ClassName>
-      <DisplayName>Stabilization (IMU) Electronics</DisplayName>
-      <FileName>Stabilization_Electronics.xaml</FileName>
+      <ClassName>LongsorScreens.Create_a_new_Avalanche</ClassName>
+      <DisplayName>Create a New Avalanche</DisplayName>
+      <FileName>Create_a_new_Avalanche.xaml</FileName>
       <Annotations />
       <Position>
-        <X>157</X>
-        <Y>95</Y>
+        <X>139</X>
+        <Y>-64</Y>
       </Position>
       <VisualTag>0</VisualTag>
     </Screen>
   </Screens>
   <Connections>
     <Connection>
-      <Source>LongsorScreens.Avalanche_Dashboard</Source>
-      <Target>LongsorScreens.Copy_of_Avalanche_Dashboard</Target>
+      <Source>LongsorScreens.Internet_Connected_Traditional_Trap</Source>
+      <Target>LongsorScreens.Avalanche_Dashboard</Target>
       <Type>Navigation</Type>
-      <TransitionType>LinearWipe</TransitionType>
+      <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
     </Connection>
     <Connection>
-      <Source>LongsorScreens.Copy_of_Avalanche_Dashboard</Source>
-      <Target>LongsorScreens.Stabilization_Electronics</Target>
+      <Source>LongsorScreens.Avalanche_Dashboard</Source>
+      <Target>LongsorScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Screen_1</Source>
+      <Target>LongsorScreens.Avalanche_Dashboard</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Screen_1</Source>
+      <Target>LongsorScreens.Internet_Connected_Traditional_Trap</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Avalanche_Dashboard</Source>
+      <Target>LongsorScreens.Internet_Connected_Traditional_Trap</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Create_a_new_Avalanche</Source>
+      <Target>LongsorScreens.Screen_1</Target>
+      <Type>Navigation</Type>
+      <TransitionType>Fade</TransitionType>
+      <VisualTag>0</VisualTag>
+    </Connection>
+    <Connection>
+      <Source>LongsorScreens.Avalanche_Dashboard</Source>
+      <Target>LongsorScreens.Victor_M260_Multi_Kill_Electronic_Mouse_Trap</Target>
       <Type>Navigation</Type>
       <TransitionType>Fade</TransitionType>
       <VisualTag>0</VisualTag>
@@ -124,10 +159,10 @@
     </VisualTag>
   </VisualTags>
   <ViewState>
-    <Zoom>1</Zoom>
+    <Zoom>1.125</Zoom>
     <Center>
-      <X>628</X>
-      <Y>78.5</Y>
+      <X>539.14091400336349</X>
+      <Y>15.777777777777821</Y>
     </Center>
   </ViewState>
 </Data>

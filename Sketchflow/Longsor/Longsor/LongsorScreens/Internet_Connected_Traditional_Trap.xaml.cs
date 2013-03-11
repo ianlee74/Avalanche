@@ -10,9 +10,9 @@ using System.Windows.Shapes;
 
 namespace LongsorScreens
 {
-	public partial class Copy_of_Avalanche_Dashboard : UserControl
+	public partial class Internet_Connected_Traditional_Trap : UserControl
 	{
-		public Copy_of_Avalanche_Dashboard()
+		public Internet_Connected_Traditional_Trap()
 		{
 			// Required to initialize variables
 			InitializeComponent();

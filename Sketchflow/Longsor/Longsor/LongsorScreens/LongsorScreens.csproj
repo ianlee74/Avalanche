@@ -70,27 +70,27 @@
     <Compile Include="Avalanche_Dashboard.xaml.cs">
       <DependentUpon>Avalanche_Dashboard.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Copy_of_Avalanche_Dashboard.xaml.cs">
-      <DependentUpon>Copy_of_Avalanche_Dashboard.xaml</DependentUpon>
+    <Compile Include="Create_a_new_Avalanche.xaml.cs">
+      <DependentUpon>Create_a_new_Avalanche.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Create_an_Avalanche.xaml.cs">
-      <DependentUpon>Create_an_Avalanche.xaml</DependentUpon>
+    <Compile Include="Internet_Connected_Traditional_Trap.xaml.cs">
+      <DependentUpon>Internet_Connected_Traditional_Trap.xaml</DependentUpon>
     </Compile>
     <Compile Include="Screen_1.xaml.cs">
       <DependentUpon>Screen_1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Stabilization_Electronics.xaml.cs">
-      <DependentUpon>Stabilization_Electronics.xaml</DependentUpon>
+    <Compile Include="Victor_M260_Multi_Kill_Electronic_Mouse_Trap.xaml.cs">
+      <DependentUpon>Victor_M260_Multi_Kill_Electronic_Mouse_Trap.xaml</DependentUpon>
     </Compile>
     <Page Include="Avalanche_Dashboard.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Copy_of_Avalanche_Dashboard.xaml">
+    <Page Include="Create_a_new_Avalanche.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Create_an_Avalanche.xaml">
+    <Page Include="Internet_Connected_Traditional_Trap.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -106,13 +106,15 @@
     <Compile Include="..\Properties\Version.cs">
       <Link>Properties\Version.cs</Link>
     </Compile>
-    <Page Include="Stabilization_Electronics.xaml">
+    <Page Include="Victor_M260_Multi_Kill_Electronic_Mouse_Trap.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Resource Include="Fonts\BuxtonSketch.ttf" />
     <Resource Include="Fonts\SketchFlow Print.ttf" />
     <Resource Include="Fonts\SegoeMarker.ttf" />
+    <Resource Include="Image1.png" />
+    <Resource Include="Image2.png" />
     <Resource Include="Sketch.Flow" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />

@@ -10,9 +10,9 @@ using System.Windows.Shapes;
 
 namespace LongsorScreens
 {
-	public partial class Create_an_Avalanche : UserControl
+	public partial class Victor_M260_Multi_Kill_Electronic_Mouse_Trap : UserControl
 	{
-		public Create_an_Avalanche()
+		public Victor_M260_Multi_Kill_Electronic_Mouse_Trap()
 		{
 			// Required to initialize variables
 			InitializeComponent();

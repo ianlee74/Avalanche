@@ -3,12 +3,21 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:pi="http://schemas.microsoft.com/prototyping/2010/interactivity"
 	mc:Ignorable="d"
 	x:Class="LongsorScreens.Screen_1"
 	Width="640" Height="480">
 
 	<Grid x:Name="LayoutRoot" Background="White">
-		<TextBlock Height="58" Margin="17,19,147,0" TextWrapping="Wrap" Text="Welcome to Longsor" VerticalAlignment="Top" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="48"/>
-		<Button Content="Create a New Avalanche" Margin="154,205,173,203"/>
+		<TextBlock Height="58" Margin="17,19,147,0" TextWrapping="Wrap" Text="Welcome to Avalanche!" VerticalAlignment="Top" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="48"/>
+		<Button Content="Create a New Avalanche" Margin="154,205,173,203" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="18.667"/>
+		<TextBlock Height="32" Margin="26,0,34,142" TextWrapping="Wrap" Text="My Avalanches" VerticalAlignment="Bottom" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="24"/>
+		<TextBlock Height="49" Margin="26,0,34,93" TextWrapping="Wrap" Text="A Better Mouse Trap" VerticalAlignment="Bottom" FontFamily="/Longsor.Screens;component/Fonts/BuxtonSketch.ttf#Buxton Sketch" FontSize="16">
+			<i:Interaction.Triggers>
+				<i:EventTrigger EventName="MouseLeftButtonDown">
+					<pi:NavigateToScreenAction TargetScreen="LongsorScreens.Avalanche_Dashboard"/>
+				</i:EventTrigger>
+			</i:Interaction.Triggers>
+		</TextBlock>
 	</Grid>
 </UserControl>

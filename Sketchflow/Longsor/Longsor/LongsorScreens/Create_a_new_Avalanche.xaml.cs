@@ -10,9 +10,9 @@ using System.Windows.Shapes;
 
 namespace LongsorScreens
 {
-	public partial class Stabilization_Electronics : UserControl
+	public partial class Create_a_new_Avalanche : UserControl
 	{
-		public Stabilization_Electronics()
+		public Create_a_new_Avalanche()
 		{
 			// Required to initialize variables
 			InitializeComponent();
