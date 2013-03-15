@@ -294,6 +294,9 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\app\avalanche.datacontext.js" />
+    <Content Include="Scripts\app\avalanche.model.js" />
+    <Content Include="Scripts\app\avalanche.viewmodel.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
@@ -353,6 +356,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\_Login.cshtml" />
     <Content Include="Views\Home\_Register.cshtml" />
+    <Content Include="Views\Avalanche\_Login.cshtml" />
+    <Content Include="Views\Avalanche\_Register.cshtml" />
+    <Content Include="Views\Avalanche\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,7 +15,7 @@ window.todoApp.datacontext = (function (ko) {
     };
 
     return datacontext;
-
+    
     function getTodoLists(todoListsObservable, errorObservable) {
         return ajaxRequest("get", todoListUrl())
             .done(getSucceeded)
@@ -99,5 +99,5 @@ window.todoApp.datacontext = (function (ko) {
     // routes
     function todoListUrl(id) { return "/api/todolist/" + (id || ""); }
     function todoItemUrl(id) { return "/api/todo/" + (id || ""); }
-
+    
 })(ko);
